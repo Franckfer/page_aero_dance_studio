@@ -73,7 +73,7 @@ export function About() {
             </div>
             {/* <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-xl border border-border"> */}
             <div className="absolute bottom-20 -left-6 bg-card p-6 rounded-xl shadow-xl border border-border">
-              <p className="text-4xl font-bold text-primary">5+</p>
+              <p className="text-4xl font-bold text-primary">3+</p>
               <p className="text-sm text-muted-foreground">Años transformando vidas</p>
             </div>
           </div>

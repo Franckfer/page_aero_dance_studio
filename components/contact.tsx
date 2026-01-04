@@ -33,32 +33,52 @@ export function Contact() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div className="bg-card p-6 rounded-xl border border-border text-center">
+          <a
+            href="https://www.google.com/maps/place/Aeropuerto+Dance+Studio/@-34.7130086,-58.4149432,3a,75y,154.42h,88.92t/data=!3m7!1e1!3m5!1sw69SSDwP9JkW2IsIF4jT4g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.0760962668000644%26panoid%3Dw69SSDwP9JkW2IsIF4jT4g%26yaw%3D154.41604787383835!7i16384!8i8192!4m6!3m5!1s0x95bccd1823e81b2d:0x5736d7348cf7e5c2!8m2!3d-34.7131524!4d-58.4148168!16s%2Fg%2F11kbg5znfq?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-card p-6 rounded-xl border border-border text-center hover:shadow-lg hover:scale-[1.01] transition cursor-pointer"
+          >
             <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-7 h-7 text-primary" />
             </div>
-            <h3 className="font-semibold mb-2">Ubicación</h3>
-            <p className="text-sm text-muted-foreground">Tu ciudad, Tu país</p>
-          </div>
 
-          <div className="bg-card p-6 rounded-xl border border-border text-center">
+            <h3 className="font-semibold mb-2">Ubicación</h3>
+
+            <p className="text-sm text-muted-foreground">
+              M. González Balcarce 3624, Remedios de Escalada
+            </p>
+          </a>
+
+          <a
+            href="tel:+541123153432"
+            className="block bg-card p-6 rounded-xl border border-border text-center hover:shadow-lg hover:scale-[1.01] transition cursor-pointer"
+          >
             <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <Phone className="w-7 h-7 text-primary" />
             </div>
-            <h3 className="font-semibold mb-2">Teléfono</h3>
-            <p className="text-sm text-muted-foreground">+1 234 567 890</p>
-          </div>
 
-          <div className="bg-card p-6 rounded-xl border border-border text-center md:col-span-2 lg:col-span-1">
+            <h3 className="font-semibold mb-2">Teléfono</h3>
+            <p className="text-sm text-muted-foreground">
+              11 2315 3432
+            </p>
+          </a>
+
+          <a
+            href="mailto:aeropuertodancestudio@gmail.com"
+            className="block bg-card p-6 rounded-xl border border-border text-center hover:shadow-lg hover:scale-[1.01] transition cursor-pointer"
+          >
             <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <Mail className="w-7 h-7 text-primary" />
             </div>
+
             <h3 className="font-semibold mb-2">Email</h3>
-            <p className="text-sm text-muted-foreground">aeropuertodancestudio@gmail.com</p>
-          </div>
+            <p className="text-sm text-muted-foreground">
+              aeropuertodancestudio@gmail.com
+            </p>
+          </a>
         </div>
 
-        {/* Social Links */}
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground mb-4">Síguenos en redes</p>
           <div className="flex justify-center gap-4">

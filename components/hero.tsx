@@ -48,7 +48,7 @@ export function Hero() {
             </Button>
             <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
               <a
-                href="https://wa.me/1234567890?text=Hola!%20Me%20interesa%20información%20sobre%20las%20clases"
+                href="https://wa.me/541123153432?text=Hola!%20Me%20interesa%20información%20sobre%20las%20clases"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -60,11 +60,11 @@ export function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 md:gap-16 mt-8 pt-8 border-t border-border">
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-primary">5+</p>
+              <p className="text-3xl md:text-4xl font-bold text-primary">3+</p>
               <p className="text-sm text-muted-foreground">Años de experiencia</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-primary">500+</p>
+              <p className="text-3xl md:text-4xl font-bold text-primary">100+</p>
               <p className="text-sm text-muted-foreground">Estudiantes</p>
             </div>
             <div className="text-center">
